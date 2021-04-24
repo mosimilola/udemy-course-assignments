@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f0ffff;
+  color: #000;
+  /* padding: 20px; */
+}
+
+nav {
+  background-color: #f0f8ff;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav li {
+  list-style: none;
+  padding: 20px;
+}
+
+h1,
+.foods {
+  padding: 20px;
+}
+
+.foods a:hover {
+  color: #e9967a;
+  font-style: italic;
+}
+
+.foods a:visited {
+  color: #ff8c00;
+  font-style: italic;
+}
+
+img {
+  width: 30%;
+  display: block;
+  margin: 40px auto;
+  /* Next time, you can display flex, then justify and align content. */
+}
