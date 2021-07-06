@@ -1,0 +1,19 @@
+table {
+  width: 700px;
+  background-color: lightblue;
+  margin-top: 24px;
+  margin-left: 24px;
+}
+
+table,
+td,
+th {
+  border: 1px solid black;
+  border-collapse: collapse;
+  font-size: 24px;
+}
+
+td,
+th {
+  padding: 16px;
+}
